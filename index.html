@@ -6,11 +6,184 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hot-Gadget</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #c5aa6a;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="images/logo.png" alt="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#products">PRODUCTS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aboutus">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT US</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <div class="bg-image">
+    <div class="container  bg-image-1">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active clr" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="clr"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="clr"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <h1>Macbook Pro</h1>
+                <p>Having said that, if you're a power user then the MacBook Pro 16 is absolutely worth it. Our review uncovered some impressive performance results, with the MacBook Pro 16's all-new cooling system allowing its components to really work to the best of their ability.</p>
+                <h1 class="price">$800</h1>
+                <button type="button" class="buy-now">Buy Now →</button>
+              </div>
+              <div class="col-md-6">
+                <img src="images/banner-products/product-1.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <h1>Apple voice assistant</h1>
+                <p>HomePod is a breakthrough speaker with high‑fidelity audio that adapts to its location. Both help you take care of everyday tasks with Siri, control your smart home, set up multiroom audio, and send Intercom messages to every room.</p>
+                <h1 class="price">$400</h1>
+                <button type="button" class="buy-now">Buy Now →</button>
+              </div>
+              <div class="col-md-6">
+                <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <h1>JBL Charge 4 - Waterproof Portable Bluetooth Speaker - Black</h1>
+                <p>Enjoy waterproof, long-lasting battery life indoors, outdoors or in the pool. JBL portable Bluetooth speakers are the best way to enjoy your music with your favorite people.</p>
+                <h1 class="price">$400</h1>
+                <button type="button" class="buy-now">Buy Now →</button>
+              </div>
+              <div class="col-md-6">
+                <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container products">
+    <div class="d-flex justify-content-between align-items-center">
+      <h1 class="smart">Smartphones</h1>
+      <p class="see">See More</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/phone/phone-1.png" class="card-img-top" alt="phone">
+          <div class="card-body">
+            <h5 class="card-title">Redmi MI 10</h5>
+            <p class="card-text">Redmi Note 10 is equipped with an advanced linear motor, which intelligently converts various sounds and movements into precise vibration effects, enhancing your gaming and overall usage experience. </p>
+            <h1 class="price">$499</h1>
+            <button type="button" class="buy-now">Buy Now →</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/phone/phone-2.png" class="card-img-top" alt="phone">
+          <div class="card-body">
+            <h5 class="card-title">Iphone 11 pro</h5>
+            <p class="card-text">Apple iPhone 11 Pro Max was launched in India on September 20, 2019 (Official) at an introductory price of Rs 109,900 and is available in different color options like Gold, Silver, Space Grey, Midnight Green.</p>
+            <h1 class="price">$799</h1>
+            <button type="button" class="buy-now">Buy Now →</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/phone/phone-3.png" class="card-img-top" alt="phone">
+          <div class="card-body">
+            <h5 class="card-title">Samsung galaxy note 20 ultra</h5>
+            <p class="card-text">Samsung Galaxy Note 20 Ultra smartphone was launched on 5th August 2020. The phone comes with a 6.90-inch touchscreen display with a resolution of 1440x3200 pixels at a pixel density of 508 pixels.</p>
+            <h1 class="price">$899</h1>
+            <button type="button" class="buy-now">Buy Now →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container laptop">
+    <div class="d-flex justify-content-between align-items-center">
+      <h1 class="smart">Laptop</h1>
+      <p class="see">See More</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/laptop/product-1.png" class="card-img-top" alt="laptop">
+          <div class="card-body">
+            <h5 class="card-title">Asus VivoBook </h5>
+            <p class="card-text">Asus VivoBook S15 is a Windows 10 laptop with a 15.60-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i5 processor and it comes with 8GB of RAM. The Asus VivoBook S15 packs 256GB of SSD storage. Graphics are powered by Nvidia GeForce MX150. </p>
+            <h1 class="price">$999</h1>
+            <button type="button" class="buy-now">Buy Now →</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/laptop/product-2.png" class="card-img-top" alt="laptop">
+          <div class="card-body">
+            <h5 class="card-title">Razer Blade 15 </h5>
+            <p class="card-text">The Razer Blade 15 with NVIDIA GeForce RTX 2070 with Max-Q Design graphics provides the ultimate PC gaming experience. Powered by an 8th Gen Intel Core i7 6 core processor and featuring a 15.6" 144Hz Full HD display, housed in a precision crafted, compact CNC aluminum chassis just 0.70" thin.</p>
+            <h1 class="price">$2799</h1>
+            <button type="button" class="buy-now">Buy Now →</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/laptop/product-3.png" class="card-img-top" alt="laptop">
+          <div class="card-body">
+            <h5 class="card-title">Xiaomi Mi Notebook Pro</h5>
+            <p class="card-text">Xiaomi Mi Notebook Pro 15 (2020) is a Windows 10 Home laptop with a 15.60-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i5 processor and it comes with 8GB of RAM. The Xiaomi Mi Notebook Pro 15 (2020) packs 512GB of SSD storage. Graphics are powered by Nvidia GeForce MX350.</p>
+            <h1 class="price">$999</h1>
+            <button type="button" class="buy-now">Buy Now →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+   <span><h1 class="catagories">Container</h1></span>
+  </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+  </body>
 </html>
