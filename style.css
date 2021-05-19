@@ -46,7 +46,16 @@ image-bg{
     margin-bottom: 200px;
 }
 .catagories{
-    border-bottom: 5px solid orange;
+    border-bottom: 8px solid orange;
+    width: 130px;
     display: flex;
     justify-content: center;
+    margin: auto;
+}
+.cat{
+    padding-bottom: 100px;
+
+}
+.bg-color{
+    background-color: rgba(211, 211, 211, 0.212);
 }
